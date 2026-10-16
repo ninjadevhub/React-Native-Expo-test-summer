@@ -4,11 +4,11 @@
   "main": "node_modules/expo/AppEntry.js",
   "private": true,
   "scripts": {
-    "start": "node api.js && expo start",
+    "start": "node init && expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "eject": "expo eject",
-    "dev": "node api.js && expo r -c",
+    "dev": "node init && expo r -c",
     "test": "jest",
     "posttest": "open jest.report.html"
   },

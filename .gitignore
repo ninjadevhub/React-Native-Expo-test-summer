@@ -58,7 +58,6 @@ buck-out/
 # CocoaPods
 /ios/Pods/
 
-.vscode
 
 signingKey.txt
 *.aab
@@ -80,3 +79,4 @@ web-build/
 branch_structure.json
 temp_auto_push.bat
 temp_interactive_push.bat
+config.bat
